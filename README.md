@@ -39,17 +39,4 @@ Data can be received at the endpoint '/api/recommended-exercise'. Once the respo
 
 
 ## UML Sequence Diagram
-The following UML Sequence diagram shows how requesting and receiving data works. 
-+--------------+       +-------------------+      +-------------------+
-| User         |       | Web App           |      | Microservice      |
-+--------------+       +-------------------+      +-------------------+
-       | clicks "Recommended     |                             |
-       | Exercise"               |                             |
-       |------------------------>|                             |
-       |                         |  Requests recommended data  |
-       |                         |---------------------------->|
-       |                         |   Returns recommended data  |
-       |                         |<----------------------------|
-       |   Renders recommended   |                             |
-       |   exercise data         |                             |
-       |<------------------------|                             |
+<img src="./public/uml_diagram.png">
