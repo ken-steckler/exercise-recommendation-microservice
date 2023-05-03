@@ -1,16 +1,16 @@
 const express = require('express')
 const cors = require('cors')
 const app = express()
-const port = 3000
+const port = 3001
 
 app.use(cors())
 
 app.get('/recommended-exercise', (req, res) => {
-    const exerciseName = 'pushups'
+    const exerciseName = 'push ups'
     const numberOfSets = 5
     const reps = 20
-    const duration = 60
-    const breakDuration = 30
+    const duration = 1
+    const restTime = 0.3
 
 
     const exercise = {
@@ -18,13 +18,13 @@ app.get('/recommended-exercise', (req, res) => {
         numberOfSets, 
         reps,
         duration,
-        breakDuration
+        restTime
     }
 
     res.json(exercise);
 })
 
 app.listen(port, () => {
-    console.log('Microservice listening at localhost 3000');
+    console.log('Microservice listening at localhost 3001');
 })
 
