@@ -39,4 +39,3 @@ Data can be received at the endpoint '/api/recommended-exercise'. Once the respo
 
 
 ## UML Sequence Diagram
-<img src="./public/uml_diagram.png">
