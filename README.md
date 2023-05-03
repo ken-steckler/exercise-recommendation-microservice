@@ -5,6 +5,11 @@ May-02-2023
 ## Overview
 This microservice allows the user to pre-fill a recommended workout timing schedule.
 
+
+## Demo
+<img src="http://g.recordit.co/O4KETh9Ne5.gif" width=400>
+
+
 ## How to REQUEST data from microservice
 Requests can be made by sending a GET reqest to the '/api/recommended-exercise' endpoint. A handle event gets executed, which sends a GET request and sends a response in the form of JSON. The JSON data is in the following form:
 - exerciseName: string 
@@ -12,6 +17,7 @@ Requests can be made by sending a GET reqest to the '/api/recommended-exercise' 
 - reps: integer
 - duration: float
 - restTime: float
+
 
 ### Example request using fetch
     const exercise = {
