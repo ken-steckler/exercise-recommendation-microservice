@@ -1,6 +1,6 @@
 # Workout Timer API Microservice
-### Ken Steckler
-### May-02-2023
+Created by: Ken Steckler
+Last Updated: May-02-2023
 ===
 ## Overview
 This microservice allows the user to pre-fill a recommended workout timing schedule.
