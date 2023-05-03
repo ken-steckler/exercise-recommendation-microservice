@@ -5,7 +5,7 @@ const port = 3001
 
 app.use(cors())
 
-app.get('/recommended-exercise', (req, res) => {
+app.get('/api/recommended-exercise', (req, res) => {
     const exerciseName = 'push ups'
     const numberOfSets = 5
     const reps = 20
